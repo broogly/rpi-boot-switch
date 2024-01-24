@@ -1,7 +1,7 @@
 # Raspberry boot switch
 
 ## Overview
-This program facilitates switching between microSD and USB boot on Raspberry Pi 1-2-3.
+This program alloww switching between microSD and USB boot on Raspberry Pi 1-2-3 using only ssh (no need to physically insert/remove SD card).
 
 ## Prerequisites
 Ensure that USB boot is enabled on your Raspberry Pi. You can check the OTP status with the following command:
