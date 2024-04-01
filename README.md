@@ -40,7 +40,12 @@ To enable USB boot, follow these instructions:
    wget https://raw.githubusercontent.com/broogly/rpi-boot-switch/main/rpi-boot-switch.sh
    ```
 
-2. Set execute permissions and create a symbolic link:
+2. Move the script to /usr/local/bin/ :
+   ```bash
+   sudo mv rpi-boot-switch.sh /usr/local/bin/
+   ```
+
+3. Set execute permissions and create a symbolic link:
    ```bash
    sudo chmod +x /usr/local/bin/rpi-boot-switch.sh && sudo ln -s /usr/local/bin/rpi-boot-switch.sh /usr/local/bin/rpi-boot-switch
    ```
